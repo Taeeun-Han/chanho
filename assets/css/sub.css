@@ -1,0 +1,328 @@
+
+
+.content .con{
+    padding-top: 50px;
+}
+.content .con .intro_title{
+    margin-top: 37px;
+}
+.content .con .intro_title .txt h2{
+    font-size: 28px;
+    font-weight: 700;
+}
+.content .con .intro_title .txt p{
+    font-size: 14px;
+    color: #999999;
+    margin-top: 18px;
+}
+.content .con .term_wrap{
+    margin-top: 115px;
+}
+
+.content .con .term_wrap .term_top input + label{
+    font-weight: 700;
+    color: #666666;
+    border-bottom: 1px solid #EEEEEE;
+    padding-bottom: 16px;
+}
+.content .con .term_wrap ul.term_bottom{
+    padding-right: 20px;
+    padding-top: 30px;
+}
+.content .con .term_wrap ul.term_bottom li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.content .con .term_wrap ul.term_bottom li:nth-child(n + 2){
+    margin-top: 24px;
+}
+.content .con .term_wrap ul.term_bottom li .chk input + label{
+    font-size: 15px;
+    color: #666666;
+    font-weight: 500;
+}
+.content .con .term_wrap ul.term_bottom li .chk + a{
+    font-size: 13px;
+    color: #999999;
+}
+
+/* 회원가입 cs.html */
+
+.content .con .cs_chat {
+    margin-top: 34px;
+}
+.content .con .cs_chat .cs:nth-child(n + 2){
+    margin-top: 48px;
+}
+.content .con .cs_chat .cs {
+    display: flex;
+}
+.content .con .cs_chat .cs .img{
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+}
+.content .con .cs_chat .cs .txt{
+    background: #F2F3F7;
+    border-radius: 0px 14px 14px 14px;
+    padding: 14px 16px;
+    box-sizing: border-box;
+    margin-left: 12px;
+}
+.content .con .cs_chat .cs .txt p{
+    font-size: 15px;
+}
+.content .con .cs_chat .cs .txt p.grey{
+    font-size: 14px;
+    color: #9EA6AC;
+    margin-top: 12px;
+}
+.content .con .cs_chat .user{
+    display: flex;
+    justify-content: right;
+    margin-top: 20px;
+}
+.content .con .cs_chat .user .txt{
+    background: #0B327D;
+    color: #fff;
+    border-radius: 14px 0px 14px 14px;
+    padding: 14px 16px;
+    box-sizing: border-box;
+    margin-left: 12px;
+    width: fit-content;
+}
+.content .con .cs_chat .user .txt p{
+    font-size: 15px;
+}
+
+.progress_bar progress {
+    appearance: none;
+    height: 3px;
+    width: 100%;
+}
+.progress_bar progress::-webkit-progress-bar {
+    background:#fff;
+}
+.progress_bar progress::-webkit-progress-value {
+    background: #0B327D;
+
+}
+
+/* // 회원가입 cs.html */
+
+/* 가입완료 sign_complete.html */
+.content .con .sign_complete{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100% - 100px);
+}
+.content .con .sign_complete h3{
+    margin-top: 40px;
+    font-weight: 700;
+    font-size: 22px;
+    
+}
+.content .con .sign_complete p{
+    margin-top: 20px;
+    color: #666666;
+    font-size: 14px;
+}
+/* // 가입완료 sign_complete.html */
+
+/* 병원검색 search.html */
+.content .con .recom {
+    padding: 30px 0;
+    border-top: 1px solid #eee;
+    margin-top: 10px;
+}
+.content .con .recom .tit{
+    font-weight: 700;
+}
+.content .con .recom ul.recom_list{
+    margin-top: 8px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.content .con .recom ul.recom_list li{
+    margin-top: 12px;
+    margin-right: 10px;
+}
+.content .con .recom ul.recom_list li a{
+    padding: 8px 10px;
+    background: #F2F3F7;
+    border-radius: 6px;
+    display: block;
+}
+.content .con .recent {
+    padding: 30px 0;
+    border-top: 1px solid #eee;
+}
+.content .con .recent .tit{
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.content .con .recent .tit button{
+    color: #999;
+    text-decoration: underline;
+    font-size: 13px;
+}
+.content .con .recent ul.recent_list{
+    margin-top: 30px;
+}
+.content .con .recent ul.recent_list li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.content .con .recent ul.recent_list li:nth-child(n + 2){
+    margin-top: 24px;
+}
+.content .con .recent ul.recent_list li .txt{
+    font-size: 14px;
+    font-weight: 500;
+}
+.content .con .recent ul.recent_list li .recent_right{
+    display: flex;
+    align-items: center;
+}
+.content .con .recent ul.recent_list li .recent_right .date{
+    font-size: 13px;
+    color: #999;
+}
+.content .con .recent ul.recent_list li .recent_right button{
+    margin-left: 18px;
+}
+.content .con ul.search_detail{
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+}
+.content .con ul.search_detail li button{
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 6px; 
+    padding: 10px 15px;   
+    font-size: 14px;
+}
+.content .con ul.search_detail li button.grey{
+    background: #F2F3F7;
+}
+.content .con ul.search_detail li:nth-child(n + 2){
+    margin-left: 8px;
+}
+.content .con ul.search_detail li .img{
+    margin-right: 7.6px;
+}
+.content .con ul.search_detail li i{
+    margin-left: 5px;
+}
+
+
+.content .con .hospital_head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    height: 48px;
+    padding: 0 20px;
+}
+.content .con .hospital_head h5{
+    color: #999;
+    font-size: 14px;
+}
+.content .con .hospital_head h5 span{
+    font-weight: 700;
+}
+.content .con .hospital_head .option{
+    display: flex;
+    align-items: center;
+}
+.content .con .hospital_head .option select{
+    width: 55px;
+    background:url('../images/select_arrow.png') no-repeat right 0px center;
+    border: none;
+    margin-left: 4px;
+    color: #666;
+    font-weight: 500;
+}
+
+
+.content .con ul.hospital_list li{
+    padding: 30px 20px;
+}
+.content .con ul.hospital_list li:nth-child(n + 2){
+    border-top: 1px solid #eee;
+}
+.content .con ul.hospital_list li a .tags{
+    display: flex;
+    align-items: center;
+}
+.content .con ul.hospital_list li a .tags .tag{
+    padding: 4px 7px;
+    font-size: 12px;
+    border: 1px solid;
+    border-radius: 4px;
+    font-weight: 600;
+}
+.content .con ul.hospital_list li a .tags .tag.blue{
+    color: #0B327D;
+    border: 1px solid #0B327D;
+}
+.content .con ul.hospital_list li a .tags .tag.sky{
+    color: #5FB1F8;
+    border: 1px solid #5FB1F8;
+}
+.content .con ul.hospital_list li a .tags .tag.green{
+    color: #43AE97;
+    border: 1px solid #43AE97;
+}
+.content .con ul.hospital_list li a .tags .tag:nth-child(n + 2){
+    margin-left: 4px;
+}
+.content .con ul.hospital_list li a > h3{
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 12px;
+}
+.content .con ul.hospital_list li a .star{
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+    margin-bottom: 16px;
+}
+.content .con ul.hospital_list li a .star i{
+    margin-right: 5px;
+}
+.content .con ul.hospital_list li a .star p{
+    font-weight: 700;
+    font-size: 14px;
+}
+.content .con ul.hospital_list li a span{
+    font-weight: 500;
+    color: #999999;
+}
+.content .con ul.hospital_list li a .info{
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+.content .con ul.hospital_list li a .info:nth-child(n + 2){
+    margin-top: 12px;
+}
+.content .con ul.hospital_list li a .info .line{
+    width: 1px;
+    height: 14px;
+    background: #ddd;
+    margin: 0 6px;
+}
+/* // 병원검색 search.html */
